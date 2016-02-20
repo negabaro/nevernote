@@ -4,6 +4,7 @@ development:
   adapter: postgresql
   database: nevernote_dev
   username: nwj
+  password: nwj
   pool: 5
   timeout: 5000
 
