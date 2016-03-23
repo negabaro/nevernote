@@ -27,7 +27,8 @@ Nevernote.Views.NoteDetail = Support.CompositeView.extend({
   },
 
   render: function() {
-    this.$el.html(JST['notes/detail']());
+this.$el.html(JST['notes/detail']());
+//#this.$el.body(JST['notes/detail-default']());
 
     setTimeout(function() {
       var windowHeight = $(window).height();
